@@ -1,0 +1,197 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #565454; /* Cor de fundo geral */
+}
+
+header nav {
+    
+    background-color: #8d938f; /* Cor alterada para cinza médio */
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os links */
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px; /* Espaçamento entre as colunas */
+    background-color: white; /* Fundo do container principal */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.sidebar {
+    width: 380px; /* Aumentei a largura da barra lateral */
+    padding-right: 20px;
+    border-right: 1px solid #ddd; /* Separador visual */
+    text-align: center; /* Centraliza o conteúdo da barra lateral */
+}
+
+.sidebar img {
+    /* max-width: 100%; REMOVI ESTA LINHA */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.sidebar h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.content {
+    flex-grow: 1; /* A coluna de conteúdo ocupa o espaço restante */
+    padding: 20px;
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.content h2{
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc; /* Cor alterada para cinza mais escuro */
+    padding-bottom: 5px;
+}
+
+/* Estilos para o formulário (seção de contato) */
+#formulario h2 {
+    color: #007bff;
+    text-align: left; /* Alinhar à esquerda dentro da coluna de conteúdo */
+}
+
+#freelancerForm {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Outros estilos do formulário (fieldset, legend, etc.) podem ser adicionados aqui */
+.required-field::after, .obrigatorio {
+    content: " *";
+    color: red;
+}
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+legend {
+    width: auto;
+    padding: 0 10px;
+    font-size: 1rem;
+    color: #555;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.col-md-6 {
+    flex: 1;
+}
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea.form-control {
+    resize: vertical;
+}
+.form-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-check {
+    margin-bottom: 5px;
+}
+.form-check-input {
+    margin-right: 5px;
+}
+.form-text {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 2px;
+}
+.btn-formulario {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-formulario:hover {
+    background-color: #0056b3;
+}
+.card.hrBcg {
+    border: none;
+    background-color: transparent;
+    margin: 20px 0;
+    text-align: center;
+}
+.card.hrBcg::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    opacity: 0.5;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    justify-content: center; /* Centraliza os ícones sociais */
+}
+
+.social-icons img {
+    height: 30px; /* Ajuste o tamanho dos ícones sociais */
+}

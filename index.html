@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Vanessa Matias</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content-section { /* Nova classe para as seções de conteúdo */
+            display: none; /* Esconde todas as seções por padrão */
+        }
+
+        .content-section.active { /* Classe para a seção ativa (visível) */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre" data-section="sobre">Sobre</a></li>
+                <li><a href="#formacao" data-section="formacao">Formação</a></li>
+                <li><a href="#experiencia" data-section="experiencia">Experiência</a></li>
+                <li><a href="#habilidades" data-section="habilidades">Habilidades</a></li>
+                <li><a href="#hobbies" data-section="hobbies">Hobbies</a></li>
+                <li><a href="#contato" data-section="contato">Contato</a></li>
+                <li><a href="#formulario" data-section="formulario">Formulário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <img src="img/10a.png" alt="Foto de Vanessa Matias" width="350">
+            <h2 class="nome-sidebar">Vanessa Matias</h2>
+        </aside>
+        <main class="content">
+            <section id="sobre" class="content-section active">
+                <h2>Sobre</h2>
+                <p class="texto-principal">Olá! Sou Vanessa Matias...</p>
+                <p class="texto-principal">Desenvolvedora em formação, cursando o 2º semestre de Análise e Desenvolvimento de Sistemas no Senac Pernambuco como participante do Programa Embarque Digital. Apaixonada por resolver problemas através da programação, tenho me dedicado ao estudo profundo de Python enquanto exploro suas diversas aplicações na área de dados - desde Análise até Ciência e Engenharia de Dados, buscando identificar onde posso gerar maior impacto. Tenho complementado minha formação acadêmica com diversos cursos e projetos em Python, desenvolvendo scripts personalizados para resolver problemas específicos.</p>
+            </section>
+
+            <section id="formacao" class="content-section">
+                <h2>Formação Acadêmica</h2>
+                <ul>
+                    <li>
+                        <strong>Faculdade Senac Pernambuco</strong>
+                        <ul>
+                            <li>Análise e Desenvolvimento de Sistemas - 2° Presente</li>
+                        </ul>
+                    </li>
+            </section>
+
+            <section id="experiencia" class="content-section">
+                <h2>Experiência Profissional</h2>
+                <table>
+                    <tr>
+                        <th>Projeto Chico - 2025 Presente</th>
+                    </tr>
+                    <tr>
+                        <td>
+                          <p>Atualmente, integro a equipe do Projeto Chico - um caranguejo interativo desenvolvido em parceria com o SEBRAE e o Senac para o Rec’n’Play 2024. Em 2025, o projeto foi aprimorado em uma versão gamificada e classificado em 2° lugar no edital Jovens no Clima 2025, promovido pela Prefeitura do Recife, onde foi um dos 18 projetos selecionados entre 51 inscritos, ficando empatado entre os três primeiros classificados. Minhas contribuições incluem:
+                            <ul>
+                                <li> Design de Personagem & Ilustração (concepção visual do caranguejo Chico);</li>
+                                <li> Game Design (mecânicas e experiência do usuário);</li>
+                                <li> Social Media & Videomaker (divulgação e conteúdo audiovisual)</li>
+                            </ul>
+                            <p><strong>Site:</strong> <a href="https://chico-site.netlify.app/" target="_blank">chico-site.netlify.app</a></p>
+                        </td>
+                        <img src="img/chico.jpeg" alt="Foto Chico" width="355">
+                    </tr>
+                </table>
+            </section>
+
+            <section id="habilidades" class="content-section">
+                <h2>Habilidades Técnicas</h2>
+                <ul>
+                    <li>
+                        <strong>Linguagens:</strong>
+                        <ul>
+                            <li>Python (Básico)</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Excel(Básico)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Ferramentas:</strong>
+                        <ul>
+                            <li>VS Code</li>
+                            <li>PyCharm</li>
+                            <li>Figma</li>
+                            <li>Git/GitHub</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="hobbies" class="content-section">
+                <h2>Hobbies</h2>
+                <ol>
+                    <li>Ver animes e séries</li>
+                    <li>Jogar games</li>
+                    <li>Apreciar um bom café</li>
+                    <li>Passeios ao Ar livre</li>
+                </ol>
+            </section>
+
+            <section id="contato" class="content-section">
+                <h2>Contato</h2>
+                <p class="texto-principal">Você pode entrar em contato comigo através dos seguintes meios:</p>
+                <p class="texto-principal"><strong>Email:</strong> vanessamatias16.s@gmail.com</p>
+                <p class="texto-principal"><strong>Telefone:</strong> (81) 98812-3718</p>
+                <p class="texto-principal"><strong>Localização:</strong> Recife, PE</p>
+                <div class="social-icons contato-icons">
+                    <a href="https://www.linkedin.com/in/vanessamatiasdev/" target="_blank">
+                        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/Vanessa-Matias" target="_blank">
+                        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+                    </a>
+                </div>
+            </section>
+
+            <section id="formulario" class="content-section">
+                <h1 class="text-center mb-4">Formulário de Freelancer</h1>
+                <div class="card hrBcg my-3"></div>
+                <form id="freelancerForm" class="bg-white p-4 rounded shadow">
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="nome" class="form-label obrigatorio"><strong>Nome</strong></label>
+                                <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="sobrenome" class="form-label obrigatorio"><strong>Sobrenome</strong></label>
+                                <input type="text" class="form-control" id="sobrenome" placeholder="Informe seu sobrenome" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="telefone" class="form-label obrigatorio"><strong>Telefone</strong></label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="(99) 99999-9999" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label obrigatorio"><strong>E-mail</strong></label>
+                                <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label obrigatorio"><strong>Mensagem</strong></label>
+                            <textarea class="form-control" id="mensagem" rows="3" placeholder="Informe o que deseja" required></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Detalhes do Serviço</legend>
+                        <div class="mb-3">
+                            <label for="lingua" class="form-label"><strong>Língua</strong></label>
+                            <select class="form-select" id="lingua">
+                                <option selected>Português (pt-br)</option>
+                                <option>Inglês</option>
+                                <option>Espanhol</option>
+                                <option>Francês</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="prototipo" class="form-label"><strong>Protótipo (Requisitos)</strong></label>
+                            <input class="form-control" type="file" id="prototipo" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+                            <div class="form-text">Formatos aceitos: PDF, DOC, DOCX, JPEG, PNG</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Linguagens de preferência</strong></label>
+                            <select class="form-select" multiple size="4">
+                                <option>Java</option>
+                                <option>C</option>
+                                <option>C++</option>
+                                <option>PHP</option>
+                                <option>Python</option>
+                                <option>JavaScript</option>
+                                <option>HTML/CSS</option>
+                            </select>
+                            <div class="form-text">Mantenha CTRL pressionado para seleções múltiplas</div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Banco de Dados</strong></label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bancoDados" id="mysql" checked>
+                                <label class="form-check-label" for="mysql">MySQL</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bancoDados" id="postgresql">
+                                <label class="form-check-label" for="postgresql">PostgreSQL</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bancoDados" id="mongodb">
+                                <label class="form-check-label" for="mongodb">MongoDB</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bancoDados" id="na">
+                                <label class="form-check-label" for="na">N/A</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bancoDados" id="outra">
+                                <label class="form-check-label" for="outra">Outra</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Agendamento</legend>
+                        <div class="mb-3">
+                            <label class="form-label obrigatorio"><strong>Turno para Reuniões</strong></label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="manha">
+                                <label class="form-check-label" for="manha">Manhã</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="tarde">
+                                <label class="form-check-label" for="tarde">Tarde</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="noite">
+                                <label class="form-check-label" for="noite">Noite</label>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="horario" class="form-label"><strong>Horário Sugerido</strong></label>
+                                <input type="time" class="form-control" id="horario">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="dataEntrega" class="form-label obrigatorio"><strong>Data Prevista de Entrega</strong></label>
+                                <input type="date" class="form-control" id="dataEntrega" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="card hrBcg my-3"></div>
+                    <div class="text-center">
+                        <button type="reset" class="btn btn-outline-secondary btn-formulario">Limpar</button>
+                        <button type="submit" class="btn btn-primary btn-formulario">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const navLinks = document.querySelectorAll('header nav ul li a');
+        const contentSections = document.querySelectorAll('.content-section');
+
+        // Esconde todas as seções, exceto a primeira
+        contentSections.forEach((section, index) => {
+            if (index !== 0) {
+                section.classList.remove('active');
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault(); // Impede o comportamento padrão do link (#)
+
+                const targetSectionId = this.getAttribute('data-section');
+
+                // Esconde a seção atualmente ativa
+                const currentActiveSection = document.querySelector('.content-section.active');
+                if (currentActiveSection) {
+                    currentActiveSection.classList.remove('active');
+                }
+
+                // Mostra a seção alvo
+                const targetSection = document.getElementById(targetSectionId);
+                if (targetSection) {
+                    targetSection.classList.add('active');
+                }
+
+                // Atualiza a classe 'active' nos links da navegação (opcional - para indicar qual seção está ativa)
+                navLinks.forEach(navLink => navLink.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // (Seu código de validação do formulário permanece o mesmo)
+        document.getElementById('freelancerForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            let isValid = true;
+            const requiredFields = this.querySelectorAll('[required]');
+
+            requiredFields.forEach(field => {
+                if (!field.value.trim()) {
+                    field.classList.add('is-invalid');
+                    isValid = false;
+                } else {
+                    field.classList.remove('is-invalid');
+                }
+            });
+
+            if (isValid) {
+                alert('Formulário enviado com sucesso!');
+                this.reset();
+            } else {
+                alert('Por favor, preencha todos os campos obrigatórios.');
+            }
+        });
+    </script>
+</body>
+</html>
